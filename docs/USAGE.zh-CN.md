@@ -1,6 +1,6 @@
 # DSH 会话日志导入 · 使用说明
 
-> 适用版本：`dsh-session-log-import` 1.0.0 ｜ DSH 0.2.x（会话格式 v4）
+> 适用版本：`dsh-session-log-import` 1.0.1 ｜ DSH 0.2.x（会话格式 v4）
 
 ---
 
@@ -25,7 +25,7 @@ DSH 能**导出**会话日志，但没有**导入**功能——导出的 ZIP 只
 3. 点击安装，按提示重启或等待热加载
 
 市场会优先用 npm 预构建包，其次用 GitHub Release 的 tarball：
-`https://github.com/ttackqwed/dsh-session-log-import/releases/download/v1.0.0/dsh-session-log-import-1.0.0.tgz`
+`https://github.com/ttackqwed/dsh-session-log-import/releases/download/v1.0.1/dsh-session-log-import-1.0.1.tgz`
 
 ### 方式二：本地 tarball
 
@@ -308,5 +308,5 @@ C:\Users\<你的用户名>\.dsh\profiles\desktop\cordis.patch.yml
 ## 附：链接
 
 - 仓库：https://github.com/ttackqwed/dsh-session-log-import
-- 下载：https://github.com/ttackqwed/dsh-session-log-import/releases/tag/v1.0.0
+- 下载：https://github.com/ttackqwed/dsh-session-log-import/releases/latest
 - 许可证：MIT

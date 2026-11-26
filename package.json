@@ -1,6 +1,6 @@
 {
   "name": "dsh-session-log-import",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Import a DSH session-log export ZIP back into stored sessions: restore history from dsh-session-<id>.zip into the current workspace.",
   "type": "module",
   "main": "index.js",
