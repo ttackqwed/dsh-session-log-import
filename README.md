@@ -27,6 +27,9 @@ Ask the agent:
 - "Inspect `D:\backup\dsh-session-abc.zip` without importing it" → `archivePath` + `dryRun: true`
 - "Import `D:\backup\dsh-session-abc.zip`" → `archivePath`
 
+A Chinese walkthrough — installation, every parameter, the full error table, and
+hardening — lives in [docs/USAGE.zh-CN.md](docs/USAGE.zh-CN.md).
+
 | Parameter | Meaning |
 |---|---|
 | `archivePath` | Absolute path to the export ZIP. Required. |
