@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Session import",
+    "description": "Restore a session-log export ZIP back into a stored session so the conversation returns to the sidebar. Adds one tool that validates the archive and writes it through the persistence backend.",
+    "detail": "docs/DETAIL.md"
+  }
+}

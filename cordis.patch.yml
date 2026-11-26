@@ -1,0 +1,10 @@
+# Session-log import: one tool that restores an exported dsh-session-<id>.zip.
+#
+# Optional hardening: uncomment `config` and list the absolute directories an
+# archive path may live in. With no config any readable path is accepted.
+- insert:
+    - id: session-log-import
+      name: dsh-session-log-import
+      # config:
+      #   allowedRoots:
+      #     - 'D:\session-backups'
