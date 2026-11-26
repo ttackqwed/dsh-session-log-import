@@ -1,0 +1,49 @@
+{
+  "name": "dsh-session-log-import",
+  "version": "1.0.0",
+  "description": "Import a DSH session-log export ZIP back into stored sessions: restore history from dsh-session-<id>.zip into the current workspace.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./icon.png": "./icon.png"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "icon.png",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "session",
+    "import",
+    "restore",
+    "backup",
+    "dsh-plugin"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttackqwed/dsh-session-log-import.git"
+  },
+  "homepage": "https://github.com/ttackqwed/dsh-session-log-import#readme",
+  "bugs": {
+    "url": "https://github.com/ttackqwed/dsh-session-log-import/issues"
+  },
+  "engines": {
+    "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
