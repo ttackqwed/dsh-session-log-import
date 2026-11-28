@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "会话导入",
-    "description": "把导出的会话日志 ZIP 还原成存储会话，让对话重新出现在侧栏。提供一个工具：校验归档后通过持久化后端写入。",
+    "title": "会话文稿：简报、转录与附件",
+    "description": "把导出的会话日志变成可读的文稿：生成交接简报注入当前对话、渲染成 Markdown 转录稿在右栏通读、把附件解成普通文件。提供 session_handoff / session_view / session_extract_attachments 与 /session-view 命令。",
     "detail": "docs/DETAIL.md"
   }
 }

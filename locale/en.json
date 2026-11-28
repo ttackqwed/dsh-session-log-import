@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Session import",
-    "description": "Restore a session-log export ZIP back into a stored session so the conversation returns to the sidebar. Adds one tool that validates the archive and writes it through the persistence backend.",
+    "title": "Session handoff, transcript & attachments",
+    "description": "Turn a session-log export into readable output: a handoff brief in the current conversation, a Markdown transcript for the right sidebar, or the attachments as ordinary files. Adds session_handoff, session_view and session_extract_attachments plus the /session-view command.",
     "detail": "docs/DETAIL.md"
   }
 }

@@ -1,17 +1,19 @@
 {
   "name": "dsh-session-log-import",
-  "version": "1.0.1",
-  "description": "Import a DSH session-log export ZIP back into stored sessions: restore history from dsh-session-<id>.zip into the current workspace.",
+  "version": "2.0.0",
+  "description": "Import a DSH session-log export ZIP back into stored sessions, summarize it into a handoff brief in the current conversation, or extract its attachments as files: restore history from dsh-session-<id>.zip and continue work.",
   "type": "module",
   "main": "index.js",
   "exports": {
     ".": "./index.js",
+    "./client": "./client.js",
     "./locale/*.json": "./locale/*.json",
     "./icon": "./icon.svg",
     "./icon.png": "./icon.png"
   },
   "files": [
     "index.js",
+    "client.js",
     "lib",
     "cordis.patch.yml",
     "locale/*.json",
@@ -44,6 +46,10 @@
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
     }
   }
 }
